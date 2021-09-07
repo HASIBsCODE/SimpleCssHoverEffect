@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    display: flex;
+    background: rgb(241, 245, 245);
+}
+.asset {
+    margin-top: 17.8%;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(180deg, white 50%, #14a2f9 50%);
+    background-size: 100% 200%;
+    background-position: 0px 0%;
+}
+
+i.fab.fa-facebook-f {
+    color: #14a2f9;
+    font-size: 50px;
+}
+
+i.fab.fa-twitter {
+    font-size: 50px;
+    color: #5da9dd;
+}
+
+i.fab.fa-linkedin-in {
+    font-size: 50px;
+    color: #0270ad;
+}
+
+i.fab.fa-instagram {
+    font-size: 50px;
+    color: #d73a8b;
+}
+.as1:hover {
+    cursor: pointer;
+    background-position:0 100% ;
+    transition: 0.5s;
+}
+
+.as1:hover a i {
+    color: white;
+    transition: 0.5s;
+}
+
+.as2{
+    background: linear-gradient(180deg, white 50%, #5da9dd 50%);
+    background-size: 100% 200%;
+    background-position: 0px 0%;
+
+}
+
+.as2:hover {
+    cursor: pointer;
+    background-position:0 100% ;
+    transition: 0.5s;
+}
+
+.as2:hover a i {
+    color: white;
+    transition: 0.5s;
+}
+
+.as3{
+    background: linear-gradient(180deg, white 50%, #d73a8b 50%);
+    background-size: 100% 200%;
+    background-position: 0px 0%;
+
+}
+
+.as3:hover {
+    cursor: pointer;
+    background-position:0 100% ;
+    transition: 0.5s;
+}
+
+.as3:hover a i {
+    color: white;
+    transition: 0.5s;
+}
+
+.as4{
+    background: linear-gradient(180deg, white 50%, #0270ad 50%);
+    background-size: 100% 200%;
+    background-position: 0px 0%;
+
+}
+
+.as4:hover {
+    cursor: pointer;
+    background-position:0 100% ;
+    transition: 0.5s;
+}
+
+.as4:hover a i {
+    color: white;
+    transition: 0.5s;
+}
